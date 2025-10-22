@@ -174,7 +174,10 @@ class MarkdownToHTML:
         html_parts.extend(["    </tr>", "  </thead>", "  <tbody>"])
 
         for row in rows:
-            html_parts.append("    <tr>")
+            # Check if this row has Category B
+            row_class = self._get_row_class(headers, row)
+            row_class_attr = f' class="{row_class}"' if row_class else ""
+            html_parts.append(f"    <tr{row_class_attr}>")
             for idx, cell in enumerate(row):
                 # Handle HTML entities that should be preserved
                 if cell == "—" or cell == "&mdash;":
@@ -193,6 +196,17 @@ class MarkdownToHTML:
         html_parts.extend(["  </tbody>", "</table>"])
 
         return "\n".join(html_parts), i
+
+    def _get_row_class(self, headers: List[str], row: List[str]) -> str:
+        """Determine CSS class for row-level formatting."""
+        # Find Category column
+        try:
+            category_idx = headers.index("Category")
+            if row[category_idx] == "B":
+                return "category-b-row"
+        except (ValueError, IndexError):
+            pass
+        return ""
 
     def _get_cell_class(self, header: str, cell: str) -> str:
         """Determine CSS class for conditional cell formatting."""
@@ -449,6 +463,13 @@ class MarkdownToHTML:
     /* Conditional cell highlighting */
     .cell-yes {
       background-color: #e0f2fe !important;
+    }
+
+    /* Row-level highlighting for Category B */
+    tr.category-b-row,
+    tr.category-b-row:nth-child(odd),
+    tr.category-b-row:nth-child(even) {
+      background-color: #dbeafe !important;
     }
 
     img {

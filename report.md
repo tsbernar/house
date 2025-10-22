@@ -50,13 +50,15 @@ Process:
 
 **Average adjusted $/sqft:** $578  
 **Subject size:** 3,008 sqft  
-**Method B valuation:** **$1,738,624**
+**Method B valuation:** **$1,654,400**
 
 ---
 
 ## Summary
 
 - **Comps reviewed:** 10 sales on Petes Path, Idlewild, Ridgelea, and Jefferson between Apr 2023 and Oct 2025.
-- **Method A :** \$1,726,592 valuation @ \$574 adjusted \$sqft.
-- **Method B :** \$1,738,624 valuation @ \$578 adjusted \$/sqft.
-- **Average:** \$1.73M
+- **Method A :** \$1,726,592 valuation @ \$574 \$/sqft.
+- **Method B :** \$1,654,400 valuation @ \$550 \$/sqft.
+- **Average:** \$1.69M
+
+Prices are still falling and adjusting past sales for the change in the market price index has a sizable impact. The same analysis without the price index adjustments gives - Method A: $1,795,776, Method B $1,774,720, Average: $1.79M

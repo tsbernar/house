@@ -115,6 +115,13 @@
       background-color: #e0f2fe !important;
     }
 
+    /* Row-level highlighting for Category B */
+    tr.category-b-row,
+    tr.category-b-row:nth-child(odd),
+    tr.category-b-row:nth-child(even) {
+      background-color: #dbeafe !important;
+    }
+
     img {
       max-width: 100%;
       height: auto;
@@ -621,7 +628,7 @@
       <th>Age at Sale</th>
       <th>Category</th>
       <th>Category Notes</th>
-      <th>Adj. $/Sqft</th>
+      <th>Adj. Indexed $/Sqft</th>
     </tr>
   </thead>
   <tbody>
@@ -667,7 +674,7 @@
       <td>high end custom new build</td>
       <td>&mdash;</td>
     </tr>
-    <tr>
+    <tr class="category-b-row">
       <td>4/12/23</td>
       <td>$1,500,000</td>
       <td>3,293</td>
@@ -679,9 +686,9 @@
       <td>20</td>
       <td>B</td>
       <td>Good comp, add 10% for age</td>
-      <td>$501</td>
+      <td>$454</td>
     </tr>
-    <tr>
+    <tr class="category-b-row">
       <td>4/30/24</td>
       <td>$1,990,000</td>
       <td>3,400</td>
@@ -693,9 +700,9 @@
       <td>1</td>
       <td>B</td>
       <td>6bd new build / lower quality offset</td>
-      <td>$585</td>
+      <td>$558</td>
     </tr>
-    <tr>
+    <tr class="category-b-row">
       <td>5/15/24</td>
       <td>$1,699,000</td>
       <td>3,122</td>
@@ -706,10 +713,10 @@
       <td>2006</td>
       <td>18</td>
       <td>B</td>
-      <td>Good comp, add 10% for age</td>
-      <td>$598</td>
+      <td>Great comp, renovated in 2023, add 10% for age</td>
+      <td>$571</td>
     </tr>
-    <tr>
+    <tr class="category-b-row">
       <td>4/7/25</td>
       <td>$1,595,000</td>
       <td>2,296</td>
@@ -721,7 +728,7 @@
       <td>77</td>
       <td>B</td>
       <td>Deduct 10% for Shoal Creek lot premium</td>
-      <td>$625</td>
+      <td>$651</td>
     </tr>
     <tr>
       <td>3/1/24</td>
@@ -772,7 +779,7 @@
 
 <p><strong>Subject size:</strong> 3,008 sqft  </p>
 
-<p><strong>Method B valuation:</strong> <strong>$1,738,624</strong></p>
+<p><strong>Method B valuation:</strong> <strong>$1,654,400</strong></p>
 
 <hr />
 
@@ -780,10 +787,12 @@
 
 <ul>
   <li><strong>Comps reviewed:</strong> 10 sales on Petes Path, Idlewild, Ridgelea, and Jefferson between Apr 2023 and Oct 2025.</li>
-  <li><strong>Method A :</strong> $1,726,592 valuation @ $574 adjusted $sqft.</li>
-  <li><strong>Method B :</strong> $1,738,624 valuation @ $578 adjusted $/sqft.</li>
-  <li><strong>Average:</strong> $1.73M</li>
+  <li><strong>Method A :</strong> $1,726,592 valuation @ $574 $/sqft.</li>
+  <li><strong>Method B :</strong> $1,654,400 valuation @ $550 $/sqft.</li>
+  <li><strong>Average:</strong> $1.69M</li>
 </ul>
+
+<p>Prices are still falling and adjusting past sales for the change in the market price index has a sizable impact. The same analysis without the price index adjustments gives - Method A: $1,795,776, Method B $1,774,720, Average: $1.79M</p>
   </main>
 </body>
 </html>
