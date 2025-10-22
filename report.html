@@ -1,790 +1,750 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>3904 Petes Path • Valuation Report</title>
-    <style>
-        :root {
-            color-scheme: light dark;
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3904 Petes Path Valuation</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
 
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f8f9fb;
-            color: #1f2933;
-        }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f9fb;
+      color: #1f2933;
+    }
 
-        .page {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 48px 24px 72px;
-            background-color: #ffffff;
-        }
+    .page {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+      background-color: #ffffff;
+    }
 
-        h1, h2, h3 {
-            margin-top: 1.8em;
-            margin-bottom: 0.6em;
-            line-height: 1.25;
-        }
+    h1, h2, h3 {
+      margin-top: 1.8em;
+      margin-bottom: 0.6em;
+      line-height: 1.25;
+    }
 
-        h1 {
-            margin-top: 0;
-            font-size: 2.25rem;
-        }
+    h1 {
+      margin-top: 0;
+      font-size: 2.25rem;
+    }
 
-        h2 {
-            font-size: 1.5rem;
-            border-bottom: 2px solid #e5e7eb;
-            padding-bottom: 0.35rem;
-        }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.35rem;
+    }
 
-        h3 {
-            font-size: 1.2rem;
-        }
+    h3 {
+      font-size: 1.2rem;
+    }
 
-        p {
-            margin: 0.75em 0;
-        }
+    p {
+      margin: 0.75em 0;
+    }
 
-        ul {
-            padding-left: 1.25rem;
-            margin: 0.75em 0;
-        }
+    ul {
+      padding-left: 1.25rem;
+      margin: 0.75em 0;
+    }
 
-        li + li {
-            margin-top: 0.25em;
-        }
+    li + li {
+      margin-top: 0.25em;
+    }
 
-        hr {
-            margin: 2.5rem 0;
-            border: 0;
-            border-top: 1px solid #e5e7eb;
-        }
+    hr {
+      margin: 2.5rem 0;
+      border: 0;
+      border-top: 1px solid #e5e7eb;
+    }
 
-        .meta {
-            color: #4b5563;
-            font-style: italic;
-        }
+    .meta {
+      color: #4b5563;
+      font-style: italic;
+    }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1.5rem 0;
-            font-size: 0.95rem;
-        }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.9rem;
+    }
 
-        thead {
-            background-color: #f1f5f9;
-        }
+    thead {
+      background-color: #f1f5f9;
+    }
 
-        th, td {
-            border: 1px solid #d1d5db;
-            padding: 0.6rem 0.75rem;
-            text-align: left;
-            vertical-align: top;
-        }
+    th,
+    td {
+      border: 1px solid #d1d5db;
+      padding: 0.5rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
 
-        th {
-            font-weight: 600;
-            color: #111827;
-        }
+    th {
+      font-weight: 600;
+      color: #111827;
+    }
 
-        tbody tr:nth-child(odd) {
-            background-color: #f9fafb;
-        }
+    tbody tr:nth-child(odd) {
+      background-color: #f9fafb;
+    }
 
-        strong {
-            font-weight: 600;
-        }
+    strong {
+      font-weight: 600;
+    }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 1.25rem 0;
-            border-radius: 8px;
-            box-shadow: 0 6px 20px rgba(15, 23, 42, 0.12);
-        }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1.25rem 0;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.12);
+    }
 
-        .image-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 1.5rem;
-            margin: 1.5rem 0;
-        }
+    .image-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
 
-        .image-row img {
-            margin: 0;
-        }
+    .image-row img {
+      margin: 0;
+    }
 
-        .note {
-            background-color: #eef2ff;
-            border-left: 4px solid #4c1d95;
-            padding: 1rem 1.25rem;
-            border-radius: 4px;
-            margin: 1.25rem 0;
-        }
+    @media (max-width: 640px) {
+      .page {
+        padding: 32px 18px 56px;
+        max-width: 100%;
+      }
 
-        @media (max-width: 640px) {
-            .page {
-                padding: 32px 18px 56px;
-            }
+      table {
+        font-size: 0.82rem;
+      }
 
-            table {
-                font-size: 0.88rem;
-            }
+      th,
+      td {
+        padding: 0.45rem 0.5rem;
+      }
 
-            th, td {
-                padding: 0.5rem 0.6rem;
-            }
-
-            h1 {
-                font-size: 1.9rem;
-            }
-        }
-    </style>
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <main class="page">
-        <header>
-            <h1>3904 Petes Path • Valuation Report</h1>
-            <p class="meta">Updated: 2025-10-21</p>
-        </header>
+  <main class="page">
+    <header>
+      <h1>3904 Petes Path Valuation</h1>
+      <p class="meta">Updated: 2025-10-21</p>
+    </header>
 
-        <hr>
+    <hr>
 
-        <section>
-            <h2>Summary</h2>
-            <ul>
-                <li><strong>Comps reviewed:</strong> 10 sales on Petes Path, Idlewild, Ridgelea, and Jefferson between Apr&nbsp;2023 and Oct&nbsp;2025.</li>
-                <li><strong>Method A (index + adjustments):</strong> $1,726,893 valuation @ $574 adjusted $/sqft.</li>
-                <li><strong>Method B (peer average):</strong> $1,737,263 valuation @ $578 adjusted $/sqft.</li>
-                <li><strong>Average:</strong> $1.73M</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Neighborhood Comps</h2>
+      <p>All homes sold on Petes Path, Idlewild, or Ridgelea since 2023.</p>
+      <img src="images/comps-map.png" alt="Comparable Sales Map">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Last List Price</th>
+            <th>Sqft</th>
+            <th>Price/Sqft</th>
+            <th>Address</th>
+            <th>Bed</th>
+            <th>Bath</th>
+            <th>Build Year</th>
+            <th>Age at Sale</th>
+            <th>Lot Sqft</th>
+            <th>Tax Assessment</th>
+            <th>Shoal Creek Lot</th>
+            <th>Corner Lot</th>
+            <th>Pool</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4/12/23</td>
+            <td>$1,500,000</td>
+            <td>3,293</td>
+            <td>$456</td>
+            <td>3900 Petes Path</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2003</td>
+            <td>20</td>
+            <td>9,064</td>
+            <td>$1,319,148</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>8/24/23</td>
+            <td>$2,610,000</td>
+            <td>3,103</td>
+            <td>$841</td>
+            <td>3905 Idlewild Rd</td>
+            <td>4</td>
+            <td>5</td>
+            <td>2023</td>
+            <td>0</td>
+            <td>7,753</td>
+            <td>$2,468,157</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>2/29/24</td>
+            <td>$2,425,000</td>
+            <td>3,171</td>
+            <td>$765</td>
+            <td>4000 Ridgelea Dr</td>
+            <td>4</td>
+            <td>4</td>
+            <td>2023</td>
+            <td>1</td>
+            <td>7,814</td>
+            <td>$1,756,589</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>3/1/24</td>
+            <td>$785,000</td>
+            <td>1,353</td>
+            <td>$580</td>
+            <td>3904 Ridgelea Dr</td>
+            <td>3</td>
+            <td>1.5</td>
+            <td>1949</td>
+            <td>75</td>
+            <td>7,840</td>
+            <td>$725,522</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>4/30/24</td>
+            <td>$1,990,000</td>
+            <td>3,400</td>
+            <td>$585</td>
+            <td>3900 Ridgelea Dr</td>
+            <td>6</td>
+            <td>5</td>
+            <td>2023</td>
+            <td>1</td>
+            <td>7,810</td>
+            <td>$1,817,740</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>5/15/24</td>
+            <td>$1,699,000</td>
+            <td>3,122</td>
+            <td>$544</td>
+            <td>4107 Idlewild Rd</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2006</td>
+            <td>18</td>
+            <td>7,862</td>
+            <td>$1,487,189</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>12/4/24</td>
+            <td>$895,000</td>
+            <td>2,148</td>
+            <td>$417</td>
+            <td>4000 Idlewild Rd</td>
+            <td>4</td>
+            <td>2.5</td>
+            <td>1948</td>
+            <td>76</td>
+            <td>11,761</td>
+            <td>$855,000</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>4/7/25</td>
+            <td>$1,595,000</td>
+            <td>2,296</td>
+            <td>$695</td>
+            <td>4107 Jefferson St</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1948</td>
+            <td>77</td>
+            <td>10,646</td>
+            <td>$849,515</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>8/22/25</td>
+            <td>$675,000</td>
+            <td>1,473</td>
+            <td>$458</td>
+            <td>4012 Ridgelea Dr</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1949</td>
+            <td>76</td>
+            <td>7,932</td>
+            <td>$775,369</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>10/10/25</td>
+            <td>$2,400,000</td>
+            <td>2,794</td>
+            <td>$859</td>
+            <td>4100 Ridgelea Dr</td>
+            <td>5</td>
+            <td>3.5</td>
+            <td>2021</td>
+            <td>4</td>
+            <td>7,666</td>
+            <td>$1,545,426</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-        <hr>
+    <hr>
 
-        <section>
-            <h2>Neighborhood Comps</h2>
-            <p>All homes sold on Petes Path, Idlewild, or Ridgelea since 2023.</p>
-            <img src="images/comps-map.png" alt="Comparable Sales Map">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Last List Price</th>
-                        <th>Sqft</th>
-                        <th>Price/Sqft</th>
-                        <th>Address</th>
-                        <th>Bed</th>
-                        <th>Bath</th>
-                        <th>Build Year</th>
-                        <th>Age at Sale</th>
-                        <th>Lot Sqft</th>
-                        <th>Tax Assessment</th>
-                        <th>Shoal Creek Lot</th>
-                        <th>Corner Lot</th>
-                        <th>Pool</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>4/12/23</td>
-                        <td>$1,500,000</td>
-                        <td>3,293</td>
-                        <td>$456</td>
-                        <td>3900 Petes Path</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>2003</td>
-                        <td>20</td>
-                        <td>9,064</td>
-                        <td>$1,319,148</td>
-                        <td>No</td>
-                        <td>Yes</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>8/24/23</td>
-                        <td>$2,610,000</td>
-                        <td>3,103</td>
-                        <td>$841</td>
-                        <td>3905 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>2023</td>
-                        <td>0</td>
-                        <td>7,753</td>
-                        <td>$2,468,157</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td>2/29/24</td>
-                        <td>$2,425,000</td>
-                        <td>3,171</td>
-                        <td>$765</td>
-                        <td>4000 Ridgelea Dr</td>
-                        <td>4</td>
-                        <td>4</td>
-                        <td>2023</td>
-                        <td>1</td>
-                        <td>7,814</td>
-                        <td>$1,756,589</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td>3/1/24</td>
-                        <td>$785,000</td>
-                        <td>1,353</td>
-                        <td>$580</td>
-                        <td>3904 Ridgelea Dr</td>
-                        <td>3</td>
-                        <td>1.5</td>
-                        <td>1949</td>
-                        <td>75</td>
-                        <td>7,840</td>
-                        <td>$725,522</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>4/30/24</td>
-                        <td>$1,990,000</td>
-                        <td>3,400</td>
-                        <td>$585</td>
-                        <td>3900 Ridgelea Dr</td>
-                        <td>6</td>
-                        <td>5</td>
-                        <td>2023</td>
-                        <td>1</td>
-                        <td>7,810</td>
-                        <td>$1,817,740</td>
-                        <td>No</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td>5/15/24</td>
-                        <td>$1,699,000</td>
-                        <td>3,122</td>
-                        <td>$544</td>
-                        <td>4107 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>2006</td>
-                        <td>18</td>
-                        <td>7,862</td>
-                        <td>$1,487,189</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>12/4/24</td>
-                        <td>$895,000</td>
-                        <td>2,148</td>
-                        <td>$417</td>
-                        <td>4000 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>2.5</td>
-                        <td>1948</td>
-                        <td>76</td>
-                        <td>11,761</td>
-                        <td>$855,000</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>4/7/25</td>
-                        <td>$1,595,000</td>
-                        <td>2,296</td>
-                        <td>$695</td>
-                        <td>4107 Jefferson St</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>1948</td>
-                        <td>77</td>
-                        <td>10,646</td>
-                        <td>$849,515</td>
-                        <td>Yes</td>
-                        <td>No</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>8/22/25</td>
-                        <td>$675,000</td>
-                        <td>1,473</td>
-                        <td>$458</td>
-                        <td>4012 Ridgelea Dr</td>
-                        <td>2</td>
-                        <td>2</td>
-                        <td>1949</td>
-                        <td>76</td>
-                        <td>7,932</td>
-                        <td>$775,369</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>10/10/25</td>
-                        <td>$2,400,000</td>
-                        <td>2,794</td>
-                        <td>$859</td>
-                        <td>4100 Ridgelea Dr</td>
-                        <td>5</td>
-                        <td>3.5</td>
-                        <td>2021</td>
-                        <td>4</td>
-                        <td>7,666</td>
-                        <td>$1,545,426</td>
-                        <td>No</td>
-                        <td>No</td>
-                        <td>Yes</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+    <section>
+      <h2>Valuation Method A — Indexed Price + Adjustments</h2>
+      <p>Assumptions:</p>
+      <ol>
+        <li>Assume last list price as the effective sale price.</li>
+        <li>Adjust for 78731 index change from sale date to present.</li>
+        <li>
+          Add the following price adjustment to make the home more comparable to 3904 Petes Path:
+          <ol type="a">
+            <li>For homes &gt; 20 years old, assume a rebuild at 3k sqft and with a cost of $900k</li>
+            <li>For &gt; 10 years old, add $200k renovation cost</li>
+            <li>For high-end custom new build sales, add $500k premium</li>
+            <li>For shoal creek lot, add $200k premium</li>
+          </ol>
+        </li>
+      </ol>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Last List Price</th>
+            <th>Sqft</th>
+            <th>Price/Sqft</th>
+            <th>Address</th>
+            <th>Bed</th>
+            <th>Bath</th>
+            <th>Build Year</th>
+            <th>Age at Sale</th>
+            <th>78731 Index Change</th>
+            <th>Indexed Price</th>
+            <th>Price Adjustment</th>
+            <th>Adj. Indexed Price</th>
+            <th>Adj. Indexed $/Sqft</th>
+            <th>Price Adjustment Note</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4/12/23</td>
+            <td>$1,500,000</td>
+            <td>3,293</td>
+            <td>$456</td>
+            <td>3900 Petes Path</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2003</td>
+            <td>20</td>
+            <td>-9.4%</td>
+            <td>$1,358,931</td>
+            <td>$200,000</td>
+            <td>$1,558,931</td>
+            <td>$473</td>
+            <td>Older at time of sale</td>
+          </tr>
+          <tr>
+            <td>8/24/23</td>
+            <td>$2,610,000</td>
+            <td>3,103</td>
+            <td>$841</td>
+            <td>3905 Idlewild Rd</td>
+            <td>4</td>
+            <td>5</td>
+            <td>2023</td>
+            <td>0</td>
+            <td>-8.3%</td>
+            <td>$2,394,199</td>
+            <td>-$500,000</td>
+            <td>$1,894,199</td>
+            <td>$610</td>
+            <td>High-end custom new build</td>
+          </tr>
+          <tr>
+            <td>2/29/24</td>
+            <td>$2,425,000</td>
+            <td>3,171</td>
+            <td>$765</td>
+            <td>4000 Ridgelea Dr</td>
+            <td>4</td>
+            <td>4</td>
+            <td>2023</td>
+            <td>1</td>
+            <td>-4.0%</td>
+            <td>$2,327,644</td>
+            <td>-$500,000</td>
+            <td>$1,827,644</td>
+            <td>$576</td>
+            <td>High-end custom new build</td>
+          </tr>
+          <tr>
+            <td>3/1/24</td>
+            <td>$785,000</td>
+            <td>1,353</td>
+            <td>$580</td>
+            <td>3904 Ridgelea Dr</td>
+            <td>3</td>
+            <td>1.5</td>
+            <td>1949</td>
+            <td>75</td>
+            <td>-4.0%</td>
+            <td>$753,485</td>
+            <td>$900,000</td>
+            <td>$1,653,485</td>
+            <td>$551</td>
+            <td>Rebuild</td>
+          </tr>
+          <tr>
+            <td>4/30/24</td>
+            <td>$1,990,000</td>
+            <td>3,400</td>
+            <td>$585</td>
+            <td>3900 Ridgelea Dr</td>
+            <td>6</td>
+            <td>5</td>
+            <td>2023</td>
+            <td>1</td>
+            <td>-4.6%</td>
+            <td>$1,898,078</td>
+            <td>$0</td>
+            <td>$1,898,078</td>
+            <td>$558</td>
+            <td>6bd new build, lower quality</td>
+          </tr>
+          <tr>
+            <td>5/15/24</td>
+            <td>$1,699,000</td>
+            <td>3,122</td>
+            <td>$544</td>
+            <td>4107 Idlewild Rd</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2006</td>
+            <td>18</td>
+            <td>-4.6%</td>
+            <td>$1,620,520</td>
+            <td>$200,000</td>
+            <td>$1,820,520</td>
+            <td>$583</td>
+            <td>Older at time of sale</td>
+          </tr>
+          <tr>
+            <td>12/4/24</td>
+            <td>$895,000</td>
+            <td>2,148</td>
+            <td>$417</td>
+            <td>4000 Idlewild Rd</td>
+            <td>4</td>
+            <td>2.5</td>
+            <td>1948</td>
+            <td>76</td>
+            <td>-3.0%</td>
+            <td>$868,183</td>
+            <td>$900,000</td>
+            <td>$1,768,183</td>
+            <td>$589</td>
+            <td>Rebuild</td>
+          </tr>
+          <tr>
+            <td>4/7/25</td>
+            <td>$1,595,000</td>
+            <td>2,296</td>
+            <td>$695</td>
+            <td>4107 Jefferson St</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1948</td>
+            <td>77</td>
+            <td>-1.6%</td>
+            <td>$1,569,564</td>
+            <td>-$200,000</td>
+            <td>$1,369,564</td>
+            <td>$597</td>
+            <td>Shoal Creek premium</td>
+          </tr>
+          <tr>
+            <td>8/22/25</td>
+            <td>$675,000</td>
+            <td>1,473</td>
+            <td>$458</td>
+            <td>4012 Ridgelea Dr</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1949</td>
+            <td>76</td>
+            <td>-0.2%</td>
+            <td>$673,323</td>
+            <td>$900,000</td>
+            <td>$1,573,323</td>
+            <td>$524</td>
+            <td>Rebuild</td>
+          </tr>
+          <tr>
+            <td>10/10/25</td>
+            <td>$2,400,000</td>
+            <td>2,794</td>
+            <td>$859</td>
+            <td>4100 Ridgelea Dr</td>
+            <td>5</td>
+            <td>3.5</td>
+            <td>2021</td>
+            <td>4</td>
+            <td>0.0%</td>
+            <td>$2,400,000</td>
+            <td>-$500,000</td>
+            <td>$1,900,000</td>
+            <td>$680</td>
+            <td>High-end custom new build</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Average adjusted $/sqft:</strong> $574<br>
+        <strong>Subject size:</strong> 3,008 sqft<br>
+        <strong>Method A valuation:</strong> $1,726,592</p>
+      <div class="image-row">
+        <img src="images/a_index_chart.png" alt="78731 Index Change">
+        <img src="images/adj_px_chart.png" alt="Adjusted $/Sqft (Method A)">
+      </div>
+    </section>
 
-        <hr>
+    <hr>
 
-        <section>
-            <h2>Valuation Method A — Indexed Price + Adjustments</h2>
-            <h3>Assumptions</h3>
-            <ol>
-                <li>Assume last list price as the effective sale price.</li>
-                <li>Adjust for 78731 index change from sale date to present.</li>
-                <li>
-                    Add the following price adjustment to make the home more comparable to 3904 Petes Path:
-                    <ol type="a">
-                        <li>For homes &gt; 20 years old, assume a rebuild at 3k sqft and with a cost of $900k.</li>
-                        <li>For &gt; 10 years old, add $200k renovation cost.</li>
-                        <li>For high-end custom new build sales, add $500k premium.</li>
-                        <li>For shoal creek lot, add $200k premium.</li>
-                    </ol>
-                </li>
-            </ol>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Last List Price</th>
-                        <th>Sqft</th>
-                        <th>Price/Sqft</th>
-                        <th>Address</th>
-                        <th>Bed</th>
-                        <th>Bath</th>
-                        <th>Build Year</th>
-                        <th>Age at Sale</th>
-                        <th>78731 Index Change</th>
-                        <th>Indexed Price</th>
-                        <th>Price Adjustment</th>
-                        <th>Adj. Indexed Price</th>
-                        <th>Adj. Indexed $/Sqft</th>
-                        <th>Price Adjustment Note</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>4/12/23</td>
-                        <td>$1,500,000</td>
-                        <td>3,293</td>
-                        <td>$456</td>
-                        <td>3900 Petes Path</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>2003</td>
-                        <td>20</td>
-                        <td>-9.4%</td>
-                        <td>$1,358,931</td>
-                        <td>$200,000</td>
-                        <td>$1,558,931</td>
-                        <td>$473</td>
-                        <td>Older at time of sale</td>
-                    </tr>
-                    <tr>
-                        <td>8/24/23</td>
-                        <td>$2,610,000</td>
-                        <td>3,103</td>
-                        <td>$841</td>
-                        <td>3905 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>2023</td>
-                        <td>0</td>
-                        <td>-8.3%</td>
-                        <td>$2,394,199</td>
-                        <td>-$500,000</td>
-                        <td>$1,894,199</td>
-                        <td>$610</td>
-                        <td>High-end custom new build</td>
-                    </tr>
-                    <tr>
-                        <td>2/29/24</td>
-                        <td>$2,425,000</td>
-                        <td>3,171</td>
-                        <td>$765</td>
-                        <td>4000 Ridgelea Dr</td>
-                        <td>4</td>
-                        <td>4</td>
-                        <td>2023</td>
-                        <td>1</td>
-                        <td>-4.0%</td>
-                        <td>$2,327,644</td>
-                        <td>-$500,000</td>
-                        <td>$1,827,644</td>
-                        <td>$576</td>
-                        <td>High-end custom new build</td>
-                    </tr>
-                    <tr>
-                        <td>3/1/24</td>
-                        <td>$785,000</td>
-                        <td>1,353</td>
-                        <td>$580</td>
-                        <td>3904 Ridgelea Dr</td>
-                        <td>3</td>
-                        <td>1.5</td>
-                        <td>1949</td>
-                        <td>75</td>
-                        <td>-4.0%</td>
-                        <td>$753,485</td>
-                        <td>$900,000</td>
-                        <td>$1,653,485</td>
-                        <td>$551</td>
-                        <td>Rebuild allowance</td>
-                    </tr>
-                    <tr>
-                        <td>4/30/24</td>
-                        <td>$1,990,000</td>
-                        <td>3,400</td>
-                        <td>$585</td>
-                        <td>3900 Ridgelea Dr</td>
-                        <td>6</td>
-                        <td>5</td>
-                        <td>2023</td>
-                        <td>1</td>
-                        <td>-4.6%</td>
-                        <td>$1,898,078</td>
-                        <td>$0</td>
-                        <td>$1,898,078</td>
-                        <td>$558</td>
-                        <td>6bd new build, lower quality</td>
-                    </tr>
-                    <tr>
-                        <td>5/15/24</td>
-                        <td>$1,699,000</td>
-                        <td>3,122</td>
-                        <td>$544</td>
-                        <td>4107 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>2006</td>
-                        <td>18</td>
-                        <td>-4.6%</td>
-                        <td>$1,620,520</td>
-                        <td>$200,000</td>
-                        <td>$1,820,520</td>
-                        <td>$583</td>
-                        <td>Older finishes</td>
-                    </tr>
-                    <tr>
-                        <td>12/4/24</td>
-                        <td>$895,000</td>
-                        <td>2,148</td>
-                        <td>$417</td>
-                        <td>4000 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>2.5</td>
-                        <td>1948</td>
-                        <td>76</td>
-                        <td>-3.0%</td>
-                        <td>$868,183</td>
-                        <td>$900,000</td>
-                        <td>$1,768,183</td>
-                        <td>$589</td>
-                        <td>Rebuild allowance</td>
-                    </tr>
-                    <tr>
-                        <td>4/7/25</td>
-                        <td>$1,595,000</td>
-                        <td>2,296</td>
-                        <td>$695</td>
-                        <td>4107 Jefferson St</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>1948</td>
-                        <td>77</td>
-                        <td>-1.6%</td>
-                        <td>$1,569,564</td>
-                        <td>-$200,000</td>
-                        <td>$1,369,564</td>
-                        <td>$597</td>
-                        <td>Shoal Creek premium</td>
-                    </tr>
-                    <tr>
-                        <td>8/22/25</td>
-                        <td>$675,000</td>
-                        <td>1,473</td>
-                        <td>$458</td>
-                        <td>4012 Ridgelea Dr</td>
-                        <td>2</td>
-                        <td>2</td>
-                        <td>1949</td>
-                        <td>76</td>
-                        <td>-0.2%</td>
-                        <td>$673,323</td>
-                        <td>$900,000</td>
-                        <td>$1,573,323</td>
-                        <td>$524</td>
-                        <td>Rebuild allowance</td>
-                    </tr>
-                    <tr>
-                        <td>10/10/25</td>
-                        <td>$2,400,000</td>
-                        <td>2,794</td>
-                        <td>$859</td>
-                        <td>4100 Ridgelea Dr</td>
-                        <td>5</td>
-                        <td>3.5</td>
-                        <td>2021</td>
-                        <td>4</td>
-                        <td>0.0%</td>
-                        <td>$2,400,000</td>
-                        <td>-$500,000</td>
-                        <td>$1,900,000</td>
-                        <td>$680</td>
-                        <td>High-end custom new build</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p><strong>Average adjusted $/sqft:</strong> $574<br>
-            <strong>Subject size:</strong> 3,008 sqft<br>
-            <strong>Method A valuation:</strong> $1,726,893</p>
-            <div class="image-row">
-                <img src="images/a_index_chart.png" alt="78731 Index Change">
-                <img src="images/adj_px_chart.png" alt="Adjusted $/Sqft (Method A)">
-            </div>
-        </section>
+    <section>
+      <h2>Valuation Method B — Peer Group Average</h2>
+      <p>Process:</p>
+      <ol>
+        <li>Group comps by age and build quality.</li>
+        <li>Select Category B peers (same profile as 3904 Petes Path).</li>
+        <li>Apply ±10% quality adjustments before averaging $/sqft.</li>
+      </ol>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Last List Price</th>
+            <th>Sqft</th>
+            <th>Price/Sqft</th>
+            <th>Address</th>
+            <th>Bed</th>
+            <th>Bath</th>
+            <th>Build Year</th>
+            <th>Age at Sale</th>
+            <th>Category</th>
+            <th>Category Notes</th>
+            <th>Adj. $/Sqft</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8/24/23</td>
+            <td>$2,610,000</td>
+            <td>3103</td>
+            <td>$841</td>
+            <td>3905 Idlewild Rd</td>
+            <td>4</td>
+            <td>5</td>
+            <td>2023</td>
+            <td>0</td>
+            <td>A</td>
+            <td>high end custom new build</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>2/29/24</td>
+            <td>$2,425,000</td>
+            <td>3171</td>
+            <td>$765</td>
+            <td>4000 Ridgelea Dr</td>
+            <td>4</td>
+            <td>4</td>
+            <td>2023</td>
+            <td>1</td>
+            <td>A</td>
+            <td>high end custom new build</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>10/10/25</td>
+            <td>$2,400,000</td>
+            <td>2794</td>
+            <td>$859</td>
+            <td>4100 Ridgelea Dr</td>
+            <td>5</td>
+            <td>3.5</td>
+            <td>2021</td>
+            <td>4</td>
+            <td>A</td>
+            <td>high end custom new build</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>4/12/23</td>
+            <td>$1,500,000</td>
+            <td>3,293</td>
+            <td>$456</td>
+            <td>3900 Petes Path</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2003</td>
+            <td>20</td>
+            <td>B</td>
+            <td>Good comp, add 10% for age</td>
+            <td>$501</td>
+          </tr>
+          <tr>
+            <td>4/30/24</td>
+            <td>$1,990,000</td>
+            <td>3,400</td>
+            <td>$585</td>
+            <td>3900 Ridgelea Dr</td>
+            <td>6</td>
+            <td>5</td>
+            <td>2023</td>
+            <td>1</td>
+            <td>B</td>
+            <td>6bd new build / lower quality offset</td>
+            <td>$585</td>
+          </tr>
+          <tr>
+            <td>5/15/24</td>
+            <td>$1,699,000</td>
+            <td>3,122</td>
+            <td>$544</td>
+            <td>4107 Idlewild Rd</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2006</td>
+            <td>18</td>
+            <td>B</td>
+            <td>Good comp, add 10% for age</td>
+            <td>$598</td>
+          </tr>
+          <tr>
+            <td>4/7/25</td>
+            <td>$1,595,000</td>
+            <td>2,296</td>
+            <td>$695</td>
+            <td>4107 Jefferson St</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1948</td>
+            <td>77</td>
+            <td>B</td>
+            <td>Deduct 10% for Shoal Creek lot premium</td>
+            <td>$625</td>
+          </tr>
+          <tr>
+            <td>3/1/24</td>
+            <td>$785,000</td>
+            <td>1353</td>
+            <td>$580</td>
+            <td>3904 Ridgelea Dr</td>
+            <td>3</td>
+            <td>1.5</td>
+            <td>1949</td>
+            <td>75</td>
+            <td>C</td>
+            <td>old home</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>12/4/24</td>
+            <td>$895,000</td>
+            <td>2148</td>
+            <td>$417</td>
+            <td>4000 Idlewild Rd</td>
+            <td>4</td>
+            <td>2.5</td>
+            <td>1948</td>
+            <td>76</td>
+            <td>C</td>
+            <td>old home</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>8/22/25</td>
+            <td>$675,000</td>
+            <td>1473</td>
+            <td>$458</td>
+            <td>4012 Ridgelea Dr</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1949</td>
+            <td>76</td>
+            <td>C</td>
+            <td>old home</td>
+            <td>&mdash;</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Average adjusted $/sqft:</strong> $578<br>
+        <strong>Subject size:</strong> 3,008 sqft<br>
+        <strong>Method B valuation:</strong> $1,738,624</p>
+    </section>
 
-        <hr>
+    <hr>
 
-        <section>
-            <h2>Valuation Method B — Peer Group Average</h2>
-            <h3>Process</h3>
-            <ol>
-                <li>Group comps by age and build quality.</li>
-                <li>Select Category B peers (same profile as 3904 Petes Path).</li>
-                <li>Apply ±10% quality adjustments before averaging $/sqft.</li>
-            </ol>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Last List Price</th>
-                        <th>Sqft</th>
-                        <th>Price/Sqft</th>
-                        <th>Address</th>
-                        <th>Bed</th>
-                        <th>Bath</th>
-                        <th>Build Year</th>
-                        <th>Age at Sale</th>
-                        <th>Category</th>
-                        <th>Category Notes</th>
-                        <th>Adj. $/Sqft</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>8/24/23</td>
-                        <td>$2,610,000</td>
-                        <td>3,103</td>
-                        <td>$841</td>
-                        <td>3905 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>2023</td>
-                        <td>0</td>
-                        <td>A</td>
-                        <td>high end custom new build</td>
-                        <td>&mdash;</td>
-                    </tr>
-                    <tr>
-                        <td>2/29/24</td>
-                        <td>$2,425,000</td>
-                        <td>3,171</td>
-                        <td>$765</td>
-                        <td>4000 Ridgelea Dr</td>
-                        <td>4</td>
-                        <td>4</td>
-                        <td>2023</td>
-                        <td>1</td>
-                        <td>A</td>
-                        <td>high end custom new build</td>
-                        <td>&mdash;</td>
-                    </tr>
-                    <tr>
-                        <td>10/10/25</td>
-                        <td>$2,400,000</td>
-                        <td>2,794</td>
-                        <td>$859</td>
-                        <td>4100 Ridgelea Dr</td>
-                        <td>5</td>
-                        <td>3.5</td>
-                        <td>2021</td>
-                        <td>4</td>
-                        <td>A</td>
-                        <td>high end custom new build</td>
-                        <td>&mdash;</td>
-                    </tr>
-                    <tr>
-                        <td>4/12/23</td>
-                        <td>$1,500,000</td>
-                        <td>3,293</td>
-                        <td>$456</td>
-                        <td>3900 Petes Path</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>2003</td>
-                        <td>20</td>
-                        <td>B</td>
-                        <td>Good comp, add 10% for age</td>
-                        <td>$501.06</td>
-                    </tr>
-                    <tr>
-                        <td>4/30/24</td>
-                        <td>$1,990,000</td>
-                        <td>3,400</td>
-                        <td>$585</td>
-                        <td>3900 Ridgelea Dr</td>
-                        <td>6</td>
-                        <td>5</td>
-                        <td>2023</td>
-                        <td>1</td>
-                        <td>B</td>
-                        <td>6bd new build / lower quality offset</td>
-                        <td>$585.29</td>
-                    </tr>
-                    <tr>
-                        <td>5/15/24</td>
-                        <td>$1,699,000</td>
-                        <td>3,122</td>
-                        <td>$544</td>
-                        <td>4107 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>2006</td>
-                        <td>18</td>
-                        <td>B</td>
-                        <td>Good comp, add 10% for age</td>
-                        <td>$598.62</td>
-                    </tr>
-                    <tr>
-                        <td>4/7/25</td>
-                        <td>$1,595,000</td>
-                        <td>2,296</td>
-                        <td>$695</td>
-                        <td>4107 Jefferson St</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>1948</td>
-                        <td>77</td>
-                        <td>B</td>
-                        <td>Deduct 10% for Shoal Creek lot premium</td>
-                        <td>$625.22</td>
-                    </tr>
-                    <tr>
-                        <td>3/1/24</td>
-                        <td>$785,000</td>
-                        <td>1,353</td>
-                        <td>$580</td>
-                        <td>3904 Ridgelea Dr</td>
-                        <td>3</td>
-                        <td>1.5</td>
-                        <td>1949</td>
-                        <td>75</td>
-                        <td>C</td>
-                        <td>old home</td>
-                        <td>&mdash;</td>
-                    </tr>
-                    <tr>
-                        <td>12/4/24</td>
-                        <td>$895,000</td>
-                        <td>2,148</td>
-                        <td>$417</td>
-                        <td>4000 Idlewild Rd</td>
-                        <td>4</td>
-                        <td>2.5</td>
-                        <td>1948</td>
-                        <td>76</td>
-                        <td>C</td>
-                        <td>old home</td>
-                        <td>&mdash;</td>
-                    </tr>
-                    <tr>
-                        <td>8/22/25</td>
-                        <td>$675,000</td>
-                        <td>1,473</td>
-                        <td>$458</td>
-                        <td>4012 Ridgelea Dr</td>
-                        <td>2</td>
-                        <td>2</td>
-                        <td>1949</td>
-                        <td>76</td>
-                        <td>C</td>
-                        <td>old home</td>
-                        <td>&mdash;</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p><strong>Average adjusted $/sqft:</strong> $578<br>
-            <strong>Subject size:</strong> 3,008 sqft<br>
-            <strong>Method B valuation:</strong> $1,737,263</p>
-        </section>
-
-        <hr>
-
-        <section>
-            <h2>Reconciliation &amp; Guidance</h2>
-            <ul>
-                <li>Both methods converge within $10K, supporting confidence in a <strong>$1.73M</strong> midpoint.</li>
-                <li>Sensitivity: ±$25 in $/sqft implies roughly ±$75K swing on a 3,008 sqft home.</li>
-                <li>Monitor new Ridgelea / Idlewild infill closings for shifts in the adjusted peer average.</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section>
-            <h2>Adjustment Rules Reference</h2>
-            <ol>
-                <li>Homes &gt; 20 years old: assume 3k sqft rebuild, $900K allowance.</li>
-                <li>Homes &gt; 10 years old: add $200K renovation cost.</li>
-                <li>High-end custom new builds: subtract $500K premium.</li>
-                <li>Shoal Creek frontage: subtract $200K premium.</li>
-            </ol>
-        </section>
-
-        <hr>
-
-        <section>
-            <h2>Appendix</h2>
-            <ul>
-                <li><code>tables/comps.md</code> — raw comparable sales.</li>
-                <li><code>tables/method-a.md</code> — valuation method A inputs.</li>
-                <li><code>tables/method-b.md</code> — valuation method B inputs.</li>
-                <li><code>images/*.png</code> — supporting charts and map.</li>
-            </ul>
-        </section>
-    </main>
+    <section>
+      <h2>Summary</h2>
+      <ul>
+        <li><strong>Comps reviewed:</strong> 10 sales on Petes Path, Idlewild, Ridgelea, and Jefferson between Apr 2023 and Oct 2025.</li>
+        <li><strong>Method A :</strong> $1,727,494 valuation @ $574 adjusted $sqft.</li>
+        <li><strong>Method B :</strong> $1,738,624 valuation @ $578 adjusted $/sqft.</li>
+        <li><strong>Average:</strong> $1.73M</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
