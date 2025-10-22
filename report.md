@@ -37,7 +37,9 @@ Assumptions:
    3. For high-end custom new build sales, add $500k premium
    4. For shoal creek lot, add $200k premium
 
-![78731 Index Change](images/a_index_chart.png) ![Adjusted $/Sqft (Method A)](images/adj_px_chart.png)
+![78731 Index Change](images/a_index_chart.png)
+
+![Adjusted $/Sqft (Method A)](images/adj_px_chart.png)
 
 | Date     | Last List Price | Sqft  | Price/Sqft | Address           | Bed | Bath | Build Year | Age at Sale | 78731 Index Change | Indexed Price | Price Adjustment | Adj. Indexed Price | Adj. Indexed $/Sqft | Price Adjustment Note        |
 | -------- | --------------- | ----- | ---------- | ----------------- | --- | ---- | ---------- | ----------- | ------------------ | ------------- | ---------------- | ------------------ | ------------------- | ---------------------------- |
@@ -88,6 +90,6 @@ Process:
 ## Summary
 
 - **Comps reviewed:** 10 sales on Petes Path, Idlewild, Ridgelea, and Jefferson between Apr 2023 and Oct 2025.
-- **Method A :** \$1,727,494 valuation @ \$574 adjusted \$sqft.
+- **Method A :** \$1,726,592 valuation @ \$574 adjusted \$sqft.
 - **Method B :** \$1,738,624 valuation @ \$578 adjusted \$/sqft.
 - **Average:** \$1.73M
