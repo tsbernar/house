@@ -21,6 +21,9 @@ class MarkdownToHTML:
         with open(self.md_path, "r", encoding="utf-8") as f:
             content = f.read()
 
+        # Process includes
+        content = self._process_includes(content)
+
         # Parse content
         lines = content.split("\n")
         html_body = self._convert_body(lines)
@@ -33,6 +36,25 @@ class MarkdownToHTML:
             f.write(html)
 
         return html
+
+    def _process_includes(self, content: str) -> str:
+        """Process include statements like {{tables/comps.md}}."""
+        import re
+        
+        # Pattern to match {{path/to/file.md}}
+        include_pattern = r'\{\{([^}]+)\}\}'
+        
+        def replace_include(match):
+            include_path = match.group(1).strip()
+            full_path = self.md_path.parent / include_path
+            
+            try:
+                with open(full_path, 'r', encoding='utf-8') as f:
+                    return f.read()
+            except FileNotFoundError:
+                return f"<!-- Error: Could not find {include_path} -->"
+        
+        return re.sub(include_pattern, replace_include, content)
 
     def _convert_body(self, lines: List[str]) -> str:
         """Convert markdown body to HTML."""
