@@ -9,7 +9,7 @@ _Updated: 2025-10-21_
 - **Valuation Method B :** \$1,654,400 valuation @ \$550 \$/sqft.
 - **Average:** **\$1.69M**
 
-Prices are still falling and adjusting past sales for the change in the market price index has a sizable impact. The same analysis without the price index adjustments gives - Method A: $1,795,776, Method B $1,774,720, Average: **\$1.79M**
+Prices are still falling, and adjusting past sales for the change in the market price index has a sizable impact. The same analysis without the price index adjustments gives - Method A: $1,795,776, Method B $1,774,720, Average: **\$1.79M**
 
 ## Neighborhood Sales
 
