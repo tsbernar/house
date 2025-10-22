@@ -37,6 +37,8 @@ Assumptions:
    3. For high-end custom new build sales, add $500k premium
    4. For shoal creek lot, add $200k premium
 
+![78731 Index Change](images/a_index_chart.png) ![Adjusted $/Sqft (Method A)](images/adj_px_chart.png)
+
 | Date     | Last List Price | Sqft  | Price/Sqft | Address           | Bed | Bath | Build Year | Age at Sale | 78731 Index Change | Indexed Price | Price Adjustment | Adj. Indexed Price | Adj. Indexed $/Sqft | Price Adjustment Note        |
 | -------- | --------------- | ----- | ---------- | ----------------- | --- | ---- | ---------- | ----------- | ------------------ | ------------- | ---------------- | ------------------ | ------------------- | ---------------------------- |
 | 4/12/23  | $1,500,000      | 3,293 | $456       | 3900 Petes Path   | 3   | 3    | 2003       | 20          | -9.4%              | $1,358,931    | $200,000         | $1,558,931         | $473                | Older at time of sale        |
@@ -53,8 +55,6 @@ Assumptions:
 **Average adjusted \$/sqft:** \$574  
 **Subject size:** 3,008 sqft  
 **Method A valuation:** **\$1,726,592**
-
-![78731 Index Change](images/a_index_chart.png) ![Adjusted $/Sqft (Method A)](images/adj_px_chart.png)
 
 ---
 
