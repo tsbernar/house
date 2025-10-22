@@ -1,15 +1,6 @@
-# 3904 Petes Path • Valuation Report
+# 3904 Petes Path Valuation
 
 _Updated: 2025-10-21_
-
----
-
-## Summary
-
-- **Comps reviewed:** 10 sales on Petes Path, Idlewild, Ridgelea, and Jefferson between Apr 2023 and Oct 2025.
-- **Method A (index + adjustments):** \$1,726,893 valuation @ \$574 adjusted \$sqft.
-- **Method B (peer average):** \$1,737,263 valuation @ \$578 adjusted \$/sqft.
-- **Average:** \$1.73M
 
 ---
 
@@ -51,17 +42,17 @@ Assumptions:
 | 4/12/23  | $1,500,000      | 3,293 | $456       | 3900 Petes Path   | 3   | 3    | 2003       | 20          | -9.4%              | $1,358,931    | $200,000         | $1,558,931         | $473                | Older at time of sale        |
 | 8/24/23  | $2,610,000      | 3,103 | $841       | 3905 Idlewild Rd  | 4   | 5    | 2023       | 0           | -8.3%              | $2,394,199    | -$500,000        | $1,894,199         | $610                | High-end custom new build    |
 | 2/29/24  | $2,425,000      | 3,171 | $765       | 4000 Ridgelea Dr  | 4   | 4    | 2023       | 1           | -4.0%              | $2,327,644    | -$500,000        | $1,827,644         | $576                | High-end custom new build    |
-| 3/1/24   | $785,000        | 1,353 | $580       | 3904 Ridgelea Dr  | 3   | 1.5  | 1949       | 75          | -4.0%              | $753,485      | $900,000         | $1,653,485         | $551                | Rebuild allowance            |
+| 3/1/24   | $785,000        | 1,353 | $580       | 3904 Ridgelea Dr  | 3   | 1.5  | 1949       | 75          | -4.0%              | $753,485      | $900,000         | $1,653,485         | $551                | Rebuild                      |
 | 4/30/24  | $1,990,000      | 3,400 | $585       | 3900 Ridgelea Dr  | 6   | 5    | 2023       | 1           | -4.6%              | $1,898,078    | $0               | $1,898,078         | $558                | 6bd new build, lower quality |
-| 5/15/24  | $1,699,000      | 3,122 | $544       | 4107 Idlewild Rd  | 4   | 3    | 2006       | 18          | -4.6%              | $1,620,520    | $200,000         | $1,820,520         | $583                | Older finishes               |
-| 12/4/24  | $895,000        | 2,148 | $417       | 4000 Idlewild Rd  | 4   | 2.5  | 1948       | 76          | -3.0%              | $868,183      | $900,000         | $1,768,183         | $589                | Rebuild allowance            |
+| 5/15/24  | $1,699,000      | 3,122 | $544       | 4107 Idlewild Rd  | 4   | 3    | 2006       | 18          | -4.6%              | $1,620,520    | $200,000         | $1,820,520         | $583                | Older at time of sale        |
+| 12/4/24  | $895,000        | 2,148 | $417       | 4000 Idlewild Rd  | 4   | 2.5  | 1948       | 76          | -3.0%              | $868,183      | $900,000         | $1,768,183         | $589                | Rebuild                      |
 | 4/7/25   | $1,595,000      | 2,296 | $695       | 4107 Jefferson St | 3   | 2    | 1948       | 77          | -1.6%              | $1,569,564    | -$200,000        | $1,369,564         | $597                | Shoal Creek premium          |
-| 8/22/25  | $675,000        | 1,473 | $458       | 4012 Ridgelea Dr  | 2   | 2    | 1949       | 76          | -0.2%              | $673,323      | $900,000         | $1,573,323         | $524                | Rebuild allowance            |
+| 8/22/25  | $675,000        | 1,473 | $458       | 4012 Ridgelea Dr  | 2   | 2    | 1949       | 76          | -0.2%              | $673,323      | $900,000         | $1,573,323         | $524                | Rebuild                      |
 | 10/10/25 | $2,400,000      | 2,794 | $859       | 4100 Ridgelea Dr  | 5   | 3.5  | 2021       | 4           | 0.0%               | $2,400,000    | -$500,000        | $1,900,000         | $680                | High-end custom new build    |
 
 **Average adjusted \$/sqft:** \$574  
 **Subject size:** 3,008 sqft  
-**Method A valuation:** **\$1,726,893**
+**Method A valuation:** **\$1,726,592**
 
 ![78731 Index Change](images/a_index_chart.png) ![Adjusted $/Sqft (Method A)](images/adj_px_chart.png)
 
@@ -80,40 +71,23 @@ Process:
 | 8/24/23  | $2,610,000      | 3103  | $841       | 3905 Idlewild Rd  | 4   | 5    | 2023       | 0           | A        | high end custom new build              |
 | 2/29/24  | $2,425,000      | 3171  | $765       | 4000 Ridgelea Dr  | 4   | 4    | 2023       | 1           | A        | high end custom new build              |
 | 10/10/25 | $2,400,000      | 2794  | $859       | 4100 Ridgelea Dr  | 5   | 3.5  | 2021       | 4           | A        | high end custom new build              |
-| 4/12/23  | $1,500,000      | 3,293 | $456       | 3900 Petes Path   | 3   | 3    | 2003       | 20          | B        | Good comp, add 10% for age             | $501.06     |
-| 4/30/24  | $1,990,000      | 3,400 | $585       | 3900 Ridgelea Dr  | 6   | 5    | 2023       | 1           | B        | 6bd new build / lower quality offset   | $585.29     |
-| 5/15/24  | $1,699,000      | 3,122 | $544       | 4107 Idlewild Rd  | 4   | 3    | 2006       | 18          | B        | Good comp, add 10% for age             | $598.62     |
-| 4/7/25   | $1,595,000      | 2,296 | $695       | 4107 Jefferson St | 3   | 2    | 1948       | 77          | B        | Deduct 10% for Shoal Creek lot premium | $625.22     |
+| 4/12/23  | $1,500,000      | 3,293 | $456       | 3900 Petes Path   | 3   | 3    | 2003       | 20          | B        | Good comp, add 10% for age             | $501        |
+| 4/30/24  | $1,990,000      | 3,400 | $585       | 3900 Ridgelea Dr  | 6   | 5    | 2023       | 1           | B        | 6bd new build / lower quality offset   | $585        |
+| 5/15/24  | $1,699,000      | 3,122 | $544       | 4107 Idlewild Rd  | 4   | 3    | 2006       | 18          | B        | Good comp, add 10% for age             | $598        |
+| 4/7/25   | $1,595,000      | 2,296 | $695       | 4107 Jefferson St | 3   | 2    | 1948       | 77          | B        | Deduct 10% for Shoal Creek lot premium | $625        |
 | 3/1/24   | $785,000        | 1353  | $580       | 3904 Ridgelea Dr  | 3   | 1.5  | 1949       | 75          | C        | old home                               |
 | 12/4/24  | $895,000        | 2148  | $417       | 4000 Idlewild Rd  | 4   | 2.5  | 1948       | 76          | C        | old home                               |
 | 8/22/25  | $675,000        | 1473  | $458       | 4012 Ridgelea Dr  | 2   | 2    | 1949       | 76          | C        | old home                               |
 
 **Average adjusted $/sqft:** $578  
 **Subject size:** 3,008 sqft  
-**Method B valuation:** **$1,737,263**
+**Method B valuation:** **$1,738,624**
 
 ---
 
-## Reconciliation & Guidance
+## Summary
 
-- Both methods converge within $10K, supporting confidence in a **$1.73M** midpoint.
-- Sensitivity: ±$25 in $/sqft implies roughly ±$75K swing on a 3,008 sqft home.
-- Monitor new Ridgelea / Idlewild infill closings for shifts in the adjusted peer average.
-
----
-
-## Adjustment Rules Reference
-
-1. Homes > 20 years old: assume 3k sqft rebuild, $900K allowance.
-2. Homes > 10 years old: add $200K renovation cost.
-3. High-end custom new builds: subtract $500K premium.
-4. Shoal Creek frontage: subtract $200K premium.
-
----
-
-## Appendix
-
-- `tables/comps.md` — raw comparable sales.
-- `tables/method-a.md` — valuation method A inputs.
-- `tables/method-b.md` — valuation method B inputs.
-- `images/*.png` — supporting charts and map.
+- **Comps reviewed:** 10 sales on Petes Path, Idlewild, Ridgelea, and Jefferson between Apr 2023 and Oct 2025.
+- **Method A :** \$1,727,494 valuation @ \$574 adjusted \$sqft.
+- **Method B :** \$1,738,624 valuation @ \$578 adjusted \$/sqft.
+- **Average:** \$1.73M
