@@ -9,7 +9,7 @@ _Updated: 2025-10-21_
 - **Valuation Method B :** \$1,654,400 @ \$550 \$/sqft.
 - **Average:** **\$1.69M**
 
-Prices are still falling, and adjusting past sales for the change in the market price index has a sizable impact. The same analysis without the price index adjustments gives - Method A: $1,795,776, Method B $1,774,720, Average: **\$1.79M**
+Prices are still falling, and adjusting past sales for the change in the market price index has a sizable impact. The same analysis without the price index adjustments gives: Method A = $1,795,776, Method B = $1,774,720, Average = **\$1.79M**
 
 ## Neighborhood Sales
 
@@ -25,7 +25,7 @@ All homes sold on Petes Path, Idlewild, or Ridgelea since 2023.
 
 Assumptions:
 
-1. Assume last list price as the effective sale price (note true sale price is often lower).
+1. Assume the last list price as the effective sale price (note: true sale price is often lower).
 2. Adjust for 78731 index change from sale date to present.
 3. Add the following price adjustment to make the home more comparable to 3904 Petes Path:
    1. For homes > 20 years old, assume a rebuild at 3k sqft and with a cost of $900k
